@@ -1,0 +1,26 @@
+
+Capstone Project¶
+Find the best place to open a new restaurant called "KHANNECTION"
+This is a feasibility project conducted to understand whether Dallas, Texas would be a good location to open up a new restaurant.
+1. Introduction
+A. Problem Statement
+
+The city chosen for this analysis is Dallas, TX. With an estimated 2019 population of 1,343,573, it is the ninth most-populous city in the U.S. and the third-largest in Texas. Over 41 colleges and universities are located within its metropolitan area, which is the most of any metropolitan area in Texas. The city has a population from a myriad of ethnic and religious backgrounds and one of the largest LGBT communities in the U.S.
+
+The city of Dallas is home to many areas, neighborhoods, and communities. Dallas can be divided into several geographical areas which include larger geographical sections of territory including many subdivisions or neighborhoods, forming macroneighborhoods namely;
+
+    Bishop Arts District
+    Casa Linda
+    Casa View
+    Cedars, The
+    Deep Ellum
+    Design District
+    Downtown Exposition ParkFair Park Kessler ParkKnox-Henderson LakewoodLake Highlands Lower Greenville"M" Streets Oak CliffOak Lawn Park CitiesPleasant Grove Preston HollowSouthwestern Medical District Trinity GrovesTurtle Creek UptownVictory Park *West End
+
+2. Data Collection
+A. Data Sources
+
+Demographic data can be obtained via "https://neighborhoods.dmagazine.com/" whereas location data (coordinates) can be obtained using https://www.latlong.net/ as this information is not readily available for Dallas region.
+B. Data Usage
+
+Dataframes will be created using pandas library in python to merge the information found in the above to data sets. Folium library will be used to visualize these on a geographical map followed by K_means clustering to identify similarity of neighborhoods. FOURSQUARE API will be used to determine local venues based on the clusters. Once the data is available, this can allow us to visualize whether a certain type of food is over or undersaturated. Meaning, does a market exist for the type of food we would like to introuce in Dallas area.
